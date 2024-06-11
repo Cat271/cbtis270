@@ -1,0 +1,255 @@
+/* Cuerpo general */
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contenido{
+    padding-top: 70px;
+}
+
+/* Inicio Video Toros vt */
+.videoToros{
+	background-color: #690b27;
+	color: #ffffff;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.videoToros h1{
+	font-size: 200%;
+}
+.vt{
+	display: flex;
+	flex-wrap: wrap;
+}
+.in-flex{
+	flex: 1;
+	min-width:280px; /*Por defecto: 335px;*/
+    border-radius: 7px;
+}
+.in-flex:first-child{
+	flex: 1;
+	padding: 25px;
+	margin: 20px;
+	background-color: #9b123c;
+    box-shadow: 2px 2px 8px rgb(87, 0, 0);
+}
+.in-flex div{
+	padding: 25px;
+	margin: 20px;
+	background-color: #9b123c;
+    border-radius: 7px;
+    box-shadow: 2px 2px 8px rgb(87, 0, 0);
+}
+.vt-Titulo{
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-size: 80%;
+}
+.vt-Descripcion{
+    text-align: justify;
+    letter-spacing: 0.5px;
+}
+/* Fin Video Toros vt */
+
+/* Inicio Noticias */
+.noticias{
+	background-color: #ffffff;
+	color: #000;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+.nt-Titulo{
+    color: #690b27;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-size: 250%;
+}
+.cuadros-noticias{
+    display: block;
+    padding-top: 20px;
+}
+.not-noticias{
+    background-color: #9b123c;
+    border-radius: 7px;
+    color: #fff;
+    padding-bottom: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgb(105, 105, 105);
+}
+.not-noticias:hover{
+    background-color: #690b27;
+    transition-duration: 250ms;
+}
+.not-noticias img{
+    border-radius: 7px;
+}
+.noticias a{
+    text-decoration: none;
+}
+.not-noticias h3{
+    padding: 7px;
+}
+.nt-VerMas{
+    padding-top: 15px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+.nt-VerMas button{
+    cursor: pointer;
+    font-size: 20px;
+    padding: 10px;
+    color: #fff;
+    background-color: #9b123c;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgb(148, 148, 148);
+}
+.nt-VerMas button:hover{
+    background-color: #690b27;
+    transition-duration: 250ms;
+}
+/* Fin Noticias */
+
+/* Inicio Destacados */
+.destacados{
+	background-color: #690b27;
+	color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 5%;
+    display: block;
+    flex-direction:column;
+    display:flex;
+    align-items:center;
+}
+.destacados a{
+    text-decoration: none;
+}
+.dc-titulo{
+    color: #ffffff;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-size: 200%;
+}
+.cuadros-destacados{
+    padding-top: 20px;
+}
+.cuad-destacados{
+    background-color: #ffffff;
+    width: 200px;
+    border-radius: 7px;
+    color: #690b27;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 10px rgb(87, 0, 0);
+}
+.cuad-destacados:hover{
+    background-color: #ebdddd;
+    transition-duration: 250ms;
+}
+.cuad-destacados img{
+    border-radius: 7px;
+    width: 200px;
+    box-shadow: 0px 2px 5px rgb(139, 139, 139);
+}
+.cuad-destacados h3{
+    padding: 7px;
+}
+/* Fin Destacados */ 
+
+/* Inicio Especialidades */
+.especialidades{
+	background-color: #2c2c2c;
+	color: #ffffff;
+    padding-top: 40px;
+    padding-bottom: 5%;
+    flex-direction:column;
+    display:flex;
+    align-items:center;
+}
+.es-titulo{
+    color: #ffffff;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    font-size: 200%;
+}
+.cuadros-especialidad{
+    padding-top: 40px;
+}
+
+.es-cuad{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    padding: 3px;
+    
+}
+.es-cuad-color{ background-color: #00124e; }
+.es-cuad img{ transition-duration: 250ms; opacity: 30%; }
+.es-cuad img:hover{ opacity: 100%; }
+
+.es-nombre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #ffffff;
+    font-size: 20px;
+    opacity: 100%;
+    z-index: 100;
+    font-size: large;
+}
+/* Fin Especialidades */
+
+/* Inicio Footer */
+footer{
+	background-image: url(../img/top.png);
+}
+#pies{
+	background:none;
+	margin: auto;
+	text-align: center;
+}
+#pie1{
+	padding: 10px;
+	width: 201px;
+}
+#pie2{
+	color: #CCC;
+	font-size: .7em;
+	text-align: left;
+	padding: 10px;
+}
+#pie1, #pie2{
+  display: inline-block;
+  vertical-align: top
+}
+@media (min-width: 664px){
+    .vt-Titulo{
+        font-size: 100%;
+    }
+    .vt-Descripcion{
+        font-size: 19px;
+    }
+    .cuadros-noticias{
+        display: flex;
+    }
+    .cuadros-destacados{
+        flex-direction: row;
+        display: inline-flex;
+    }
+    .cuadros-especialidad{
+        flex-direction: row;
+        display: inline-flex;
+    }
+}

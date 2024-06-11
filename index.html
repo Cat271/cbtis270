@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+    <title>Construcci&oacute;n | CBTis 270 - Ciudad Ju&aacute;z</title>
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="stylesheet" type="text/css" href="css/slider.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.5.1/css/all.css" />
+    <script src="js/menu.js" type="text/javascript"></script>
+    <script src="js/slider.js" type="text/javascript"></script>
+    <script src="js/jssor.slider.min.js" type="text/javascript"></script>
+</head>
+<body>
+    <header class="cabecera" height="35">
+        <div class="container">
+            <a href="index.html"><img class="logo" src="img/logo-toros.png" width="70" height="70"></a>
+        </div>
+        <nav id="site-nav" class="site-nav">
+            <ul>
+				<li><a href="https://cbtis270.edu.mx/oferta-academica.php">Oferta Acad&eacute;mica</a></li>
+				<li><a href="https://cbtis270.edu.mx/alumnos.php">Alumnos</a></li>
+                <li><a href="https://cbtis270.edu.mx/eventos.php">Eventos</a></li>
+				<li><a href="https://cbtis270.edu.mx/docentes.php">Docentes</a></li>
+				<li><a href="https://cbtis270.edu.mx/transparencia.php">Transparencia</a></li>
+                <li><a href="https://cbtis270.edu.mx/nosotros.php">Nosotros</a></li>
+				<li><a href="https://cbtis270.edu.mx/contacto.php">Contacto</a></li>
+			</ul>
+        </nav>
+        <div id="menu-toggle" class="menu-toggle" onclick="cambioPosicion()">
+			<div class="sandwich"></div>
+		</div>
+    </header>
+    <div class="contenido">
+        <!-- Inicio Galeria -->
+        <div id="jssor_1" class="ajuste-slider">
+            <!-- Loading Screen -->
+            <div data-u="loading" class="jssorl-009-spin" style="position:absolute;top:0px;left:0px;width:100%;height:100%;text-align:center;background-color:rgba(0,0,0,0.7);">
+                <img style="margin-top:-19px;position:relative;top:50%;width:38px;height:38px;" src="img/spin.svg" />
+            </div>
+            <div data-u="slides" class="ajuste-imagenes-slider">
+                <!-- Portada Inscripciones
+                <div><a href="https://admin.cbtis270.edu.mx/">
+                    <img data-u="image" src="img/port_reinscripcion.jpg" />
+                    <div class="titulo-imagen-slider">
+                        <i class="fa-solid fa-pen-to-square"></i> RE-INSCRIPCIONES
+                    </div>
+                    <div class="descripcion-imagen-slider">Inscripciones para el semestre <i style="background-color: #c55a11;">febrero-julio 2024</i>. Has clic aqu&iacute o accede al siguiente enlace:
+                    <p style="line-height:50px;"><i style="background-color: #c55a11;">https://admin.cbtis270.edu.mx/</i></p></div>
+                    <div class="imagen-derecha-slider">
+                        <img src="img/logo-toros.png" width="300px">
+                    </div></a>
+                </div>-->
+                <!-- imagenes -->
+                <div>
+                    <img data-u="image" class="img-movil" src="img/Inscripciones-movil.jpg" />
+                    <img data-u="image" class="img-escritorio" src="img/Inscripciones.jpg" width="100%" />
+                </div>
+                <div>
+                    <img data-u="image" class="img-movil" src="img/Inscripciones-movil.jpg" />
+                    <img data-u="image" class="img-escritorio" src="img/Inscripciones.jpg" width="100%" />
+                </div>
+                <div>
+                    <img data-u="image" class="img-movil" src="img/Integrate-Movil.png" />
+                    <img data-u="image" class="img-escritorio" src="img/integrate.png" width="100%" />
+                </div>
+            </div>
+            <!-- Bullet Navigator -->
+            <div data-u="navigator" class="jssorb051" style="position:absolute;bottom:12px;right:12px;" data-autocenter="1" data-scale="0.5" data-scale-bottom="0.75">
+                <div data-u="prototype" class="i" style="width:16px;height:16px;">
+                    <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                        <circle class="b" cx="8000" cy="8000" r="5800"></circle>
+                    </svg>
+                </div>
+            </div>
+            <!-- Arrow Navigator -->
+            <div data-u="arrowleft" class="jssora051" style="width:55px;height:55px;top:0px;left:25px;" data-autocenter="2" data-scale="0.75" data-scale-left="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="11040,1920 4960,8000 11040,14080 "></polyline>
+                </svg>
+            </div>
+            <div data-u="arrowright" class="jssora051" style="width:55px;height:55px;top:0px;right:25px;" data-autocenter="2" data-scale="0.75" data-scale-right="0.75">
+                <svg viewBox="0 0 16000 16000" style="position:absolute;top:0;left:0;width:100%;height:100%;">
+                    <polyline class="a" points="4960,1920 11040,8000 4960,14080 "></polyline>
+                </svg>
+            </div>
+        </div>
+        <!-- Fin Galeria -->
+
+        <!-- Inicio TODOS SOMOS TOROS  -->
+        <section class="videoToros">
+            <section class="vt">
+                <div class="in-flex vt-Video">
+                    <video controls autoplay muted loop width="100%">
+                        <source src="https://www.cbtis270.edu.mx/video/cbtis270.mp4" type="video/mp4" codecs="avc1,mp4a" />
+                        Tu navegador no soporta los vídeos de HTML5
+                    </video>
+                </div>
+                <div class="in-flex">
+                    <div class="vt-Titulo"><h1>&#161;TODOS SOMOS TOROS!</h1></div>
+                    <div class="vt-Descripcion">El CBTis 270 inicia sus operaciones en el a&ntilde;o 2010, al suroriente de Ciudad Ju&aacute;rez. Es reconocido como uno de los cinco planteles m&aacute;s grandes a nivel nacional no s&oacute;lo por su plantilla escolar, sino tambi&eacute;n por los premios y reconocimientos obtenidos a lo largo de los a&ntilde;os.</div>
+                </div>
+            </section>
+            
+        </section>
+        <!-- Fin TODOS SOMOS TOROS -->
+
+        <!-- Inicio Noticias -->
+        <section class="noticias">
+            <section class="nt-Titulo"><h1>NOTICIAS</h1></section>
+            <div class="cuadros-noticias">
+                <a href="https://diario.mx/juarez/montan-en-el-cbtis-miniobras-de-teatro-20240531-2179834.html"><div class="not-noticias">
+                    <div><img src="img/nov-05-06-24.jpg" width="100%" ></div>
+                    <div><h3>Mini obras de teatro en CBTis 270</h3></div>
+                </div></a>
+                <a href="https://www.cbtis270.edu.mx/descargas/RESENA%20GOMADE.pdf"><div class="not-noticias">
+                    <div><img src="img/nov-03-06-24.jpg" width="100%" ></div>
+                    <div><h3>Rese&ntilde;a sobre GOMADE</h3></div>
+                </div></a>
+                <a href="https://www.cbtis270.edu.mx/nov-16-04-24.php"><div class="not-noticias">
+                    <div><img src="img/nov-16-04-24.jpg" width="100%" ></div>
+                    <div><h3>Termina tu primaria y secundaria</h3></div>
+                </div></a>
+            </div>
+            <div class="nt-VerMas">
+                <button class="btnVerMas" onclick="location.href='https://google.com';">Ver m&aacute;s</button>
+            </div>
+        </section>
+        <!-- Fin Noticias -->
+
+        <!-- Inicio Destacados -->
+        <section class="destacados">
+            <section class="dc-titulo"><h1>DESTACADOS</h1></section>
+            <div class="cuadros-destacados">
+                <a href="https://www.cbtis270.edu.mx/horarios.php" target="_blank"><div class="cuad-destacados">
+                    <div><img src="img/bann-horarios.png" width="100%" ></div>
+                    <div><h3>HORARIOS</h3></div>
+                </div></a>
+                <a href="https://www.cbtis270.edu.mx/descargas/ACUERDO%20ESCOLAR%20DE%20CONVIVENCIA%20DGETI,%20CICLO%20ESCOLAR%202023-2024%20CBTIS%20270.pdf" target="_blank"><div class="cuad-destacados">
+                    <div><img src="img/bann-convivencia.png" width="100%" ></div>
+                    <div><h3>AEC 2023</h3></div>
+                </div></a>
+                <a href="http://construyet.sep.gob.mx/" target="_blank"><div class="cuad-destacados">
+                    <div><img src="img/bann-construyet.png" width="100%" ></div>
+                    <div><h3>Construye-T</h3></div>
+                </div></a>
+                <a href="http://www.sems.gob.mx/en_mx/sems/sinata" target="_blank"><div class="cuad-destacados">
+                    <div><img src="img/bann-sinata.png" width="100%" ></div>
+                    <div><h3>SiNaTa</h3></div>
+                </div></a>
+            </div>
+        </section>
+        <!-- Fin Destacados -->
+
+        <!-- Inicio Especialidades -->
+        <section class="especialidades">
+            <section class="es-titulo"><h1>ESPECIALIDADES</h1></section>
+            <div class="cuadros-especialidad">
+                <div class="es-cuad">
+                    <a href="https://www.cbtis270.edu.mx/descargas/Mantenimiento_Industrial.pdf" target="_blank">
+                        <div class="es-nombre"><strong>Mantenimento Industrial</strong></div>
+                        <div class="es-cuad-color"><img src="img/ent-mantenimiento.jpg" /></div>
+                    </a>
+                </div>
+                <div class="es-cuad">
+                    <a href="https://www.cbtis270.edu.mx/descargas/Electricidad.pdf" target="_blank">
+                        <div class="es-nombre"><strong>Electricidad</strong></div>
+                        <div class="es-cuad-color"><img src="img/ent-electricidad.jpg" /></div>
+                    </a>
+                </div>
+                <div class="es-cuad">
+                    <a href="https://www.cbtis270.edu.mx/descargas/Programacion.pdf" target="_blank">
+                        <div class="es-nombre"><strong>Programaci&oacute;n</strong></div>
+                        <div class="es-cuad-color"><img src="img/ent-programacion.jpg" /></div>
+                    </a>
+                </div>
+                <div class="es-cuad">
+                    <a href="https://www.cbtis270.edu.mx/descargas/Administracion_de_Recursos_Humanos.pdf" target="_blank">
+                        <div class="es-nombre"><strong>Administraci&oacute;n de Recursos Humanos</strong></div>
+                        <div class="es-cuad-color"><img src="img/ent-recursos.jpg" /></div>
+                    </a>
+                </div>
+                <div class="es-cuad">
+                    <a href="https://www.cbtis270.edu.mx/descargas/Logistica.pdf" target="_blank">
+                        <div class="es-nombre"><strong>Log&iacute;stica</strong></div>
+                        <div class="es-cuad-color"><img src="img/ent-logistica.jpg" /></div>
+                    </a>
+                </div>
+                <div class="es-cuad">
+                    <a href="https://www.cbtis270.edu.mx/descargas/Fuentes_Alternas_de_Energia.pdf" target="_blank">
+                        <div class="es-nombre"><strong>Fuentes Alternas de Energ&iacute;a</strong></div>
+                        <div class="es-cuad-color"><img src="img/ent-energias.jpg" /></div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <!-- Fin Especialidades -->
+
+        <footer>
+            <div id="pies">
+                <div id="pie1">
+                <img src="img/logo-2024.png">
+                </div>
+                <div id="pie2">
+                <img src="img/logos-pies.png"><br>
+                Centro de Bachillerato Tecnológico industrial y de servicios No. 270<br>
+                2024 año de Felipe Carrillo Puerto
+                </div>
+            </div>
+        </footer>
+    </div>    
+    <script type="text/javascript">jssor_1_slider_init();</script>
+</body>
+</html>
