@@ -83,10 +83,10 @@ body{
     margin: 20px;
     text-align: center;
     box-shadow: 2px 2px 10px rgb(105, 105, 105);
+    transition-duration: 250ms;
 }
 .not-noticias:hover{
     background-color: #690b27;
-    transition-duration: 250ms;
 }
 .not-noticias img{
     border-radius: 7px;
@@ -112,10 +112,10 @@ body{
     border: none;
     border-radius: 4px;
     box-shadow: 2px 2px 4px rgb(148, 148, 148);
+    transition-duration: 250ms;
 }
 .nt-VerMas button:hover{
     background-color: #690b27;
-    transition-duration: 250ms;
 }
 /* Fin Noticias */
 
@@ -151,10 +151,10 @@ body{
     margin: 20px;
     text-align: center;
     box-shadow: 2px 2px 10px rgb(87, 0, 0);
+    transition-duration: 250ms;
 }
 .cuad-destacados:hover{
-    background-color: #ebdddd;
-    transition-duration: 250ms;
+    background-color: #d4c6c6;
 }
 .cuad-destacados img{
     border-radius: 7px;
@@ -191,7 +191,7 @@ body{
     position: relative;
     display: inline-block;
     text-align: center;
-    padding: 3px;
+    padding: 0.5px;
     
 }
 .es-cuad-color{ background-color: #00124e; }
@@ -245,10 +245,6 @@ footer{
         display: flex;
     }
     .cuadros-destacados{
-        flex-direction: row;
-        display: inline-flex;
-    }
-    .cuadros-especialidad{
         flex-direction: row;
         display: inline-flex;
     }
